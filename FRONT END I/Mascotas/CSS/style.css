@@ -1,0 +1,31 @@
+@font-face {font-family: roboto; src: url(../Fonts/roboto/Roboto-Regular.ttf)}
+.top {background-color:#222222; color:#f3f3f3; font-size: 10px;}
+.banner {background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    height: 409px;
+    width; 1025px;
+    background-size:cover;}
+body{font-family:roboto;}
+.topbottom1 {background-color:#F0A83E; 
+    color:white; 
+    font: size 20px;}
+.bienvenida {font-size:30px; 
+    background-color:#ffffff; 
+    text-align: center;}
+.Descuento {font-size: 16px; 
+    text-align: right;}
+button {font-size: 16px; 
+    background: #F0A83E; 
+    width: 141px;
+    height: 49px; color:white}    
+main{text-align: center; 
+    font: size 15px;}
+div{color:#F0A83E;}
+ul {list-style-type: none;}
+.bottom {background-color:#222222; 
+    color:white; 
+    font-size:10px; 
+    text-align: center;}
+.section2footer {background-color: #3C2313; 
+                color: white; 
+                font-size:20px}
+.itemscontacto {font-size: 10px;}
