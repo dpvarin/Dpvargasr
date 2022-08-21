@@ -1,4 +1,4 @@
-img {background-color:#E6E6E6; 
+img{background-color:#E6E6E6; 
     display:block; 
     margin:0px auto; 
     width:100px;
@@ -6,33 +6,35 @@ img {background-color:#E6E6E6;
     left: 670px;
     top: 20.91px;}
     header{background-image: url(../img/pexels-asad-photo-maldives-457881.jpg);
-           background-size:cover}
-    body {font-family: 'Shadows Into Light', cursive;}
-    h1 {background-color:#C4C4C4; 
+           background-size:cover;
+            height: 400px;}
+    body{font-family: 'Shadows Into Light';}
+    h1{background-color:#C4C4C4; 
         line-height:60px; 
         color:#005677; 
-        font-family:'Times New Roman';
+       font-family: 'Shadows Into Light';
         font-size:35px;
         text-align:center;}
-    h2 {background-color:#C4C4C4; 
+    h2{background-color:#C4C4C4; 
         line-height: 30px; 
         color:#005677; 
-        font-family:'Times New Roman';
-        font-size:20px}
+        font-family:'Shadows Into Light';
+        font-size:20px;}
     .Subtítulonc{font-weight: bold; 
                  font-style: italic; 
                  line-height: 13px;}
     .Subtítulon{font-weight: bold;}
     .tabulación:first-letter{margin-left: 90px;}
-  p {line-height: 9px;}
-footer {background-color: #005677;
+  p{line-height: 9px;}
+footer{background-color: #005677;
         text-align: center; 
         color:#FFFFFF;
-        font-family: 'Times New Roman'; 
+        font-family: 'Shadows Into Light'; 
         font-style:normal; 
         font-weight: 700px; 
         font-size: 20px; 
-        line: height 37px;px;}
+        line: height 37px;}
         /*íconos Instagram y Linkedin*/
-        .logos {width: 15px;
-            height: 15px;}
+        .logos{width: 15px;
+                height: 15px;}
+
