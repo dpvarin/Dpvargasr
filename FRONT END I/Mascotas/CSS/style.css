@@ -1,31 +1,122 @@
-@font-face {font-family: roboto; src: url(../Fonts/roboto/Roboto-Regular.ttf)}
-.top {background-color:#222222; color:#f3f3f3; font-size: 10px;}
-.banner {background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
-    height: 409px;
-    width; 1025px;
-    background-size:cover;}
-body{font-family:roboto;}
-.topbottom1 {background-color:#F0A83E; 
+@font-face {
+    font-family: roboto; src: url(../Fonts/roboto/Roboto-Regular.ttf)
+}
+*{
+    box-sizing: border-box;
+    margin:0%;
+}
+body{
+    font-family:roboto;
+}
+.top {
+    background-color:#222222; 
+    color:#f3f3f3; 
+    height:20px;
+    font-size: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.idiomaymoneda {
+    display:flex;
+    justify-content:flex-end;
+    }
+.topbottom1{
+    display:flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center;
+}
+.menú{
+    display:flex;
+    justify-content:flex-end;
+}
+.banner {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    }
+.topbottom1 {
+    background-color:#F0A83E; 
     color:white; 
-    font: size 20px;}
-.bienvenida {font-size:30px; 
+    font: size 20px;
+}
+.bienvenida {
+    font-size:30px; 
     background-color:#ffffff; 
-    text-align: center;}
-.Descuento {font-size: 16px; 
-    text-align: right;}
-button {font-size: 16px; 
+    text-align: center;
+    position: absolute;
+    top:165px;
+    left: 658px;
+    height: 54px;
+    width: 365px;
+    align-items: center;
+}
+.Descuento {
+    font-size: 16px; 
+    text-align: right;
+    position: absolute;
+    top:222px;
+    left: 740px;
+}
+button {
+    font-size: 16px; 
     background: #F0A83E; 
     width: 141px;
-    height: 49px; color:white}    
-main{text-align: center; 
-    font: size 15px;}
-div{color:#F0A83E;}
-ul {list-style-type: none;}
-.bottom {background-color:#222222; 
+    height: 49px; color:white;
+    position:absolute;
+    top:253px;
+    left: 767px;
+}    
+main{
+    text-align: center; 
+    font: size 15px;
+}
+div{
+    color:#F0A83E;
+}
+ul {
+    list-style-type: none;
+}
+.productos{
+    display:flex;
+    justify-content: space-evenly;
+}
+.churrasquito{
+    background-image:url(../img/churrasquito.png);
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+}
+.comedero{
+    background-image: url(../img/comedero.png);
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+}
+.juguete{
+    background-image: url(../img/Huesito.png);
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+}
+.bottom {
+    background-color:#222222; 
     color:white; 
     font-size:10px; 
-    text-align: center;}
-.section2footer {background-color: #3C2313; 
-                color: white; 
-                font-size:20px}
-.itemscontacto {font-size: 10px;}
+    text-align: center;
+}
+.section2footer {
+    background-color: #3C2313; 
+    color: white; 
+    font-size:20px
+}
+.itemscontacto {
+    font-size: 10px;
+}
+
